@@ -10,3 +10,5 @@ This is the source code from the [IndyJS April 2014 meetup](http://www.meetup.co
 Use shell redirection to perform an actual compilation:
 
 `node basic.js < test.bas > test.js && node test.js`
+
+Uncomment one of the `jsonify` lines in `basic.js` to watch the tokens from the lexer, and statements from the parser, respectively.
